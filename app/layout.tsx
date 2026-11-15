@@ -29,13 +29,11 @@ export const metadata: Metadata = {
     siteName: "Palworld Breeding Calculator",
     title: "Palworld Breeding Calculator & Planner",
     description: "Organize Palworld parent pairings and estimate simple IV averages with a free breeding planner.",
-    images: [{ url: "/og-image.png", width: 1200, height: 630, alt: "Palworld Breeding Calculator and Planner" }]
   },
   twitter: {
-    card: "summary_large_image",
+    card: "summary",
     title: "Palworld Breeding Calculator & Planner",
     description: "Organize parent Pals, target offspring and simple IV estimates.",
-    images: ["/og-image.png"]
   }
 };
 
