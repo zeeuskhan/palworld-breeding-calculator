@@ -1,2 +1,14 @@
 import type { MetadataRoute } from "next";
-export default function sitemap(): MetadataRoute.Sitemap { return [{ url: "https://palworld-breeding-calculator.vercel.app", lastModified: new Date(), changeFrequency: "weekly", priority: 1 }]; }
+
+const siteUrl = "https://palworld-breeding-calculator-darvesh-projects.vercel.app";
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [
+    {
+      url: siteUrl,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
+      priority: 1
+    }
+  ];
+}
